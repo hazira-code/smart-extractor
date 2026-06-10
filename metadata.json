@@ -1,0 +1,6 @@
+{
+  "name": "Zero-Shot & Few-Shot Data Extraction",
+  "description": "An interactive playground, visualization dashboard, and complete workspace showing Zero-Shot and Few-Shot LLM data extraction, complete with Python code explorer, report viewer, slides presentation, and live evaluations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
