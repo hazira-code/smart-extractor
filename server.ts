@@ -221,7 +221,9 @@ ${text}
 
 // Configure Vite or Static files depending on environment
 async function startServer() {
-  if (process.env.NODE_ENV !== "production") {
+  const isProduction = process.env.NODE_ENV === "production" || process.env.RENDER === "true";
+
+  if (!isProduction) {
     // Development Mode
     const vite = await createViteServer({
       server: { middlewareMode: true },
